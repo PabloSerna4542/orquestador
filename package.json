@@ -1,0 +1,25 @@
+{
+  "name": "orquestador",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PabloSerna4542/orquestador#readme",
+  "bugs": {
+    "url": "https://github.com/PabloSerna4542/orquestador/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSerna4542/orquestador.git"
+  },
+  "license": "ISC",
+  "author": "Pablo Serna Soriano",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
